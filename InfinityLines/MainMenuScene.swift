@@ -13,14 +13,14 @@ class MainMenuScene: SKScene {
     var infinityLabel = SKLabelNode(fontNamed: "Arial")
     var startButton = SKSpriteNode(imageNamed: "StartButton")
     var howButton = SKSpriteNode(imageNamed: "HowButton")
-    var settingsButton = SKSpriteNode(imageNamed: "SettingsButton")
-    var linesLabel = SKLabelNode(fontNamed: "Arial")
+        var linesLabel = SKLabelNode(fontNamed: "Arial")
     
     
     
     
     
     override func didMove(to view: SKView) {
+        self.backgroundColor = UIColor.black
         view.backgroundColor = UIColor.black
         infinityLabel.position = CGPoint(x: size.width/2, y: size.height-100)
         infinityLabel.fontColor = UIColor.white
@@ -29,7 +29,6 @@ class MainMenuScene: SKScene {
         
         startButton.position = CGPoint(x: size.width/2, y: size.height/2 + 125)
         howButton.position = CGPoint(x: size.width/2, y: size.height/2)
-        settingsButton.position = CGPoint(x: size.width/2, y: size.height/2 - 125)
         
         linesLabel.position = CGPoint(x: size.width/2, y: 100)
         linesLabel.fontColor = UIColor.white
@@ -39,7 +38,6 @@ class MainMenuScene: SKScene {
         addChild(infinityLabel)
         addChild(startButton)
         addChild(howButton)
-        addChild(settingsButton)
         addChild(linesLabel)
 
     }

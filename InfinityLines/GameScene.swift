@@ -14,7 +14,8 @@ struct CellValue {
     static let empty = 0
     static let body = 1
     static let laser = 2
-    static let power = 3
+    static let wall = 3
+    
 }
 
 struct Directions {
@@ -42,7 +43,7 @@ class GameScene: SKScene {
     var scoreLabel = SKLabelNode(fontNamed: "Arial")
     var pauseButton = SKSpriteNode(imageNamed: "PauseButton")
     override func didMove(to view: SKView) {
-        
+         self.backgroundColor = UIColor.black
         // Get label node from scene and store it for use later
         map = Array(repeating: Array(repeating: 0, count: Int(size.height/cellSize)), count: Int(size.width/cellSize))
         laserMap = Array(repeating: Array(repeating: 0, count: Int(size.height/cellSize)), count: Int(size.width/cellSize))
@@ -207,7 +208,7 @@ class GameScene: SKScene {
                 currentY = currentY+1
             }
         }else if direction == Directions.left{
-            if map[currentX-1][currentY] == 1 || laserMap[currentX-1][currentY] > 0{
+            if map[currentX-1][currentY] == 1 || laserMap[currentX-1][currentY] > 0 {
                 gameOver()
             }else{
                 //map[currentX-1][currentY] = 1

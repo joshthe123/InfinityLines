@@ -17,8 +17,6 @@ class PauseMenu: SKScene{
     
     
     override func didMove(to view: SKView) {
-        view.backgroundColor = UIColor.black
-
         restartButton.position = CGPoint(x: size.width/2, y: size.height/2 + 100)
         mainMenuButton.position = CGPoint(x: size.width/2, y: size.height/2 - 100)
 

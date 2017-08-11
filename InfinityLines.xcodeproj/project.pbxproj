@@ -19,7 +19,6 @@
 		94423ED51F3CA2CE00AC826A /* MainMenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94423ED41F3CA2CE00AC826A /* MainMenuScene.swift */; };
 		94423ED71F3CA9C700AC826A /* HowToPlayMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94423ED61F3CA9C700AC826A /* HowToPlayMenu.swift */; };
 		94423ED91F3CB2B000AC826A /* PauseMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94423ED81F3CB2B000AC826A /* PauseMenu.swift */; };
-		94423EDB1F3D06B200AC826A /* SettingsMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94423EDA1F3D06B200AC826A /* SettingsMenu.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,7 +36,6 @@
 		94423ED41F3CA2CE00AC826A /* MainMenuScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenuScene.swift; sourceTree = "<group>"; };
 		94423ED61F3CA9C700AC826A /* HowToPlayMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HowToPlayMenu.swift; sourceTree = "<group>"; };
 		94423ED81F3CB2B000AC826A /* PauseMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PauseMenu.swift; sourceTree = "<group>"; };
-		94423EDA1F3D06B200AC826A /* SettingsMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsMenu.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +72,6 @@
 				940873461F34EC2600A567BA /* GameScene.sks */,
 				940873481F34EC2600A567BA /* Actions.sks */,
 				9408734A1F34EC2600A567BA /* GameScene.swift */,
-				94423EDA1F3D06B200AC826A /* SettingsMenu.swift */,
 				94423ED81F3CB2B000AC826A /* PauseMenu.swift */,
 				94423EAE1F38EE7700AC826A /* Laser.swift */,
 				9408734C1F34EC2600A567BA /* GameViewController.swift */,
@@ -120,7 +117,7 @@
 				TargetAttributes = {
 					940873401F34EC2500A567BA = {
 						CreatedOnToolsVersion = 8.3.1;
-						DevelopmentTeam = 5EZ85C7X7N;
+						DevelopmentTeam = 5QE9EZU6N7;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -166,7 +163,6 @@
 				94423ED71F3CA9C700AC826A /* HowToPlayMenu.swift in Sources */,
 				94423ED51F3CA2CE00AC826A /* MainMenuScene.swift in Sources */,
 				9408734B1F34EC2600A567BA /* GameScene.swift in Sources */,
-				94423EDB1F3D06B200AC826A /* SettingsMenu.swift in Sources */,
 				94423EAF1F38EE7700AC826A /* Laser.swift in Sources */,
 				94423ED91F3CB2B000AC826A /* PauseMenu.swift in Sources */,
 				9408734D1F34EC2600A567BA /* GameViewController.swift in Sources */,
@@ -295,7 +291,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 5EZ85C7X7N;
+				DEVELOPMENT_TEAM = 5QE9EZU6N7;
 				INFOPLIST_FILE = InfinityLines/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.iDTech.Josh.InfinityLines;
@@ -308,7 +304,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 5EZ85C7X7N;
+				DEVELOPMENT_TEAM = 5QE9EZU6N7;
 				INFOPLIST_FILE = InfinityLines/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.iDTech.Josh.InfinityLines;
